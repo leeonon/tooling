@@ -7,6 +7,9 @@
     "ci": "pnpm run lint",
     "release": "pnpm run lint && changesets publish"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
