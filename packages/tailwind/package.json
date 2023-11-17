@@ -1,0 +1,32 @@
+{
+  "name": "@otter-scout/tailwind-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "index.ts",
+    "postcss.js"
+  ],
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "tailwindcss": "3.3.5",
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "@otter-scout/tsconfig": "^1.0.0",
+    "@otter-scout/eslint-config": "^1.0.0",
+    "@otter-scout/prettier-config": "^1.0.0",
+    "prettier": "^3.0.3",
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@otter-scout/eslint-config/base"
+    ]
+  },
+  "prettier": "@otter-scout/prettier-config"
+}
