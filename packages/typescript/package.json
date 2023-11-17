@@ -1,7 +1,9 @@
 {
   "name": "@otter-scout/tsconfig",
   "version": "1.0.0",
-  "access": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "base.json"
   ],

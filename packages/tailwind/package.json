@@ -5,7 +5,9 @@
   "main": "index.ts",
   "author": "",
   "license": "ISC",
-  "access": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "index.ts",
     "postcss.js"
