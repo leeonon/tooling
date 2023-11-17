@@ -4,6 +4,7 @@
   "main": "index.mjs",
   "author": "LeeOnOn",
   "license": "ISC",
+  "access": "public",
   "files":[
     "index.mjs"
   ],

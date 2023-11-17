@@ -6,6 +6,7 @@
     "./nextjs.js",
     "./react.js"
   ],
+  "access": "public",
   "dependencies": {
     "eslint-config-next": "^13.4.19",
     "@next/eslint-plugin-next": "^14.0.0",

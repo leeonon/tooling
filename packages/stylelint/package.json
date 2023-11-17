@@ -2,6 +2,7 @@
   "name": "@otter-scout/stylelint-config",
   "version": "1.0.0",
   "main": "index.mjs",
+  "access": "public",
   "devDependencies": {
     "@otter-scout/tsconfig": "^1.0.0",
     "@otter-scout/eslint-config": "^1.0.0",
