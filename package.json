@@ -2,7 +2,11 @@
   "name": "@otter-scout/tooling",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint",
+    "ci": "pnpm run lint",
+    "release": "pnpm run lint && changesets publish"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
