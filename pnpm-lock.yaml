@@ -46,10 +46,10 @@ importers:
         version: 4.6.0(eslint@8.56.0)
     devDependencies:
       '@otter-hacker/prettier-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../prettier
       '@otter-hacker/tsconfig':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../typescript
       eslint:
         specifier: ^8.52.0
@@ -64,10 +64,10 @@ importers:
         specifier: ^4.1.0
         version: 4.1.1(prettier@3.2.2)
       '@otter-hacker/eslint-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../eslint
       '@otter-hacker/tsconfig':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../typescript
       eslint:
         specifier: ^8.52.0
@@ -85,13 +85,13 @@ importers:
   packages/stylelint:
     devDependencies:
       '@otter-hacker/eslint-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../eslint
       '@otter-hacker/prettier-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../prettier
       '@otter-hacker/tsconfig':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../typescript
       stylelint:
         specifier: ^15.11.0
@@ -109,23 +109,23 @@ importers:
   packages/tailwind:
     dependencies:
       autoprefixer:
-        specifier: ^10.4.14
+        specifier: ^10.4.16
         version: 10.4.16(postcss@8.4.33)
       postcss:
         specifier: ^8.4.27
         version: 8.4.33
       tailwindcss:
-        specifier: 3.3.5
-        version: 3.3.5
+        specifier: 3.4.1
+        version: 3.4.1
     devDependencies:
       '@otter-hacker/eslint-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../eslint
       '@otter-hacker/prettier-config':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../prettier
       '@otter-hacker/tsconfig':
-        specifier: ^1.0.0
+        specifier: ^2.0.1
         version: link:../typescript
       eslint:
         specifier: ^8.52.0
@@ -3886,8 +3886,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@3.3.5:
-    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
+  /tailwindcss@3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
