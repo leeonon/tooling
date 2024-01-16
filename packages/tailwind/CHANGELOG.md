@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.0.3
+
+### Patch Changes
+
+- c3837f1: update package version
+
 ## 2.0.2
 
 ### Patch Changes
