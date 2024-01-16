@@ -15,15 +15,15 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "tailwindcss": "3.4.1",
-    "postcss": "^8.4.27"
+    "postcss": "^8.4.33"
   },
   "devDependencies": {
     "@otter-hacker/tsconfig": "^2.0.1",
     "@otter-hacker/eslint-config": "^2.0.1",
     "@otter-hacker/prettier-config": "^2.0.1",
-    "prettier": "^3.0.3",
-    "eslint": "^8.52.0",
-    "typescript": "^5.2.2"
+    "prettier": "^3.2.2",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   },
   "eslintConfig": {
     "root": true,
