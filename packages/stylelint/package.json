@@ -1,14 +1,14 @@
 {
   "name": "@otter-hacker/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.mjs",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@otter-hacker/tsconfig": "^2.0.0",
-    "@otter-hacker/eslint-config": "^2.0.0",
-    "@otter-hacker/prettier-config": "^2.0.0",
+    "@otter-hacker/tsconfig": "^2.0.1",
+    "@otter-hacker/eslint-config": "^2.0.1",
+    "@otter-hacker/prettier-config": "^2.0.1",
     "stylelint": "^15.11.0",
     "stylelint-config-recess-order": "^4.3.0",
     "stylelint-config-standard": "^34.0.0",

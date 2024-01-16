@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.0.1
+
+### Patch Changes
+
+- remove tooling package
+
 ## 2.0.0
 
 ### Major Changes
