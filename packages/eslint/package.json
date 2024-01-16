@@ -1,5 +1,5 @@
 {
-  "name": "@otter-scout/eslint-config",
+  "name": "@otter-hacker/eslint-config",
   "version": "1.0.0",
   "files": [
     "./base.js",
@@ -22,8 +22,8 @@
     "eslint-plugin-prettier": "^5.0.1"
   },
   "devDependencies": {
-    "@otter-scout/tsconfig": "^1.0.0",
-    "@otter-scout/prettier-config": "^1.0.0",
+    "@otter-hacker/tsconfig": "^1.0.0",
+    "@otter-hacker/prettier-config": "^1.0.0",
     "eslint": "^8.52.0",
     "typescript": "^5.2.2"
   },
@@ -33,6 +33,6 @@
       "./base.js"
     ]
   },
-  "prettier": "@otter-scout/prettier-config",
+  "prettier": "@otter-hacker/prettier-config",
   "license": "ISC"
 }

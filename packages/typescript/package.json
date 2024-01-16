@@ -1,5 +1,5 @@
 {
-  "name": "@otter-scout/tsconfig",
+  "name": "@otter-hacker/tsconfig",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"

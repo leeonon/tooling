@@ -1,9 +1,9 @@
 ---
-"@otter-scout/eslint-config": major
-"@otter-scout/prettier-config": major
-"@otter-scout/stylelint-config": major
-"@otter-scout/tailwind-config": major
-"@otter-scout/tsconfig": major
+"@otter-hacker/eslint-config": major
+"@otter-hacker/prettier-config": major
+"@otter-hacker/stylelint-config": major
+"@otter-hacker/tailwind-config": major
+"@otter-hacker/tsconfig": major
 ---
 
 add changeset

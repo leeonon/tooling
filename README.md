@@ -1,14 +1,14 @@
 ## TSConfig
 
 ```sh
-pnpm add @otter-scout/tsconfig -F @xxxx
+pnpm add @otter-hacker/tsconfig -F @xxxx
 ```
 
 tsconfig.json
 
 ```json
 {
-  "extends": "@otter-scout/tsconfig/base.json",
+  "extends": "@otter-hacker/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -37,7 +37,7 @@ tsconfig.json
 
 ## ESLint
 ```sh
-pnpm add @otter-scout/eslint-config -F @xxxx
+pnpm add @otter-hacker/eslint-config -F @xxxx
 ```
 
 package.json
@@ -46,9 +46,9 @@ package.json
 "eslintConfig": {
   "root": true,
   "extends": [
-    "@otter-scout/eslint-config/base",
-    "@otter-scout/eslint-config/nextjs",
-    "@otter-scout/eslint-config/react"
+    "@otter-hacker/eslint-config/base",
+    "@otter-hacker/eslint-config/nextjs",
+    "@otter-hacker/eslint-config/react"
   ]
 },
 ```
@@ -57,14 +57,14 @@ package.json
 ### Install
 
 ```sh
-pnpm add @otter-scout/prettier-config -F @xxxx
+pnpm add @otter-hacker/prettier-config -F @xxxx
 ```
 
 ### Setting package.json
 
 ```json
 {
-  "prettier": "@otter-scout/prettier-config"
+  "prettier": "@otter-hacker/prettier-config"
 }
 ```
 
@@ -73,7 +73,7 @@ pnpm add @otter-scout/prettier-config -F @xxxx
 ### Install
 
 ```sh
-pnpm add @otter-scout/stylelint-config -F @xxxx
+pnpm add @otter-hacker/stylelint-config -F @xxxx
 ```
 
 ### Setting package.json
@@ -81,7 +81,7 @@ pnpm add @otter-scout/stylelint-config -F @xxxx
 ```json
 {
   "stylelint": {
-    "extends": "@otter-scout/stylelint-config"
+    "extends": "@otter-hacker/stylelint-config"
   }
 }
 ```
@@ -91,20 +91,20 @@ pnpm add @otter-scout/stylelint-config -F @xxxx
 ### Install
 
 ```sh
-pnpm add @otter-scout/tailwind-config -F @xxxx
+pnpm add @otter-hacker/tailwind-config -F @xxxx
 ```
 
 1. Create postcss.config.cjs
 
 ```js
 // @ts-expect-error - No types for postcss
-module.exports = require('@otter-scout/tailwind-config/postcss');
+module.exports = require('@otter-hacker/tailwind-config/postcss');
 ```
 
 2. Create tailwind.config.ts
 
 ```ts
-import baseConfig from '@otter-scout/tailwind-config';
+import baseConfig from '@otter-hacker/tailwind-config';
 import { nextui } from '@nextui-org/react';
 import { type Config } from 'tailwindcss';
 

@@ -3,7 +3,7 @@
 ### Install
 
 ```sh
-pnpm add @otter-scout/stylelint-config -F @xxxx
+pnpm add @otter-hacker/stylelint-config -F @xxxx
 ```
 
 ### Setting package.json
@@ -11,7 +11,7 @@ pnpm add @otter-scout/stylelint-config -F @xxxx
 ```json
 {
   "stylelint": {
-    "extends": "@otter-scout/stylelint-config"
+    "extends": "@otter-hacker/stylelint-config"
   }
 }
 ```

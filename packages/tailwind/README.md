@@ -3,20 +3,20 @@
 ### Install
 
 ```sh
-pnpm add @otter-scout/tailwind-config -F @xxxx
+pnpm add @otter-hacker/tailwind-config -F @xxxx
 ```
 
 1. Create postcss.config.cjs
 
 ```js
 // @ts-expect-error - No types for postcss
-module.exports = require('@otter-scout/tailwind-config/postcss');
+module.exports = require('@otter-hacker/tailwind-config/postcss');
 ```
 
 2. Create tailwind.config.ts
 
 ```ts
-import baseConfig from '@otter-scout/tailwind-config';
+import baseConfig from '@otter-hacker/tailwind-config';
 import { nextui } from '@nextui-org/react';
 import { type Config } from 'tailwindcss';
 

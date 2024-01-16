@@ -1,5 +1,5 @@
 {
-  "name": "@otter-scout/tailwind-config",
+  "name": "@otter-hacker/tailwind-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -18,9 +18,9 @@
     "postcss": "^8.4.27"
   },
   "devDependencies": {
-    "@otter-scout/tsconfig": "^1.0.0",
-    "@otter-scout/eslint-config": "^1.0.0",
-    "@otter-scout/prettier-config": "^1.0.0",
+    "@otter-hacker/tsconfig": "^1.0.0",
+    "@otter-hacker/eslint-config": "^1.0.0",
+    "@otter-hacker/prettier-config": "^1.0.0",
     "prettier": "^3.0.3",
     "eslint": "^8.52.0",
     "typescript": "^5.2.2"
@@ -28,8 +28,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@otter-scout/eslint-config/base"
+      "@otter-hacker/eslint-config/base"
     ]
   },
-  "prettier": "@otter-scout/prettier-config"
+  "prettier": "@otter-hacker/prettier-config"
 }

@@ -3,13 +3,13 @@
 ### Install
 
 ```sh
-pnpm add @otter-scout/prettier-config -F @xxxx
+pnpm add @otter-hacker/prettier-config -F @xxxx
 ```
 
 ### Setting package.json
 
 ```json
 {
-  "prettier": "@otter-scout/prettier-config"
+  "prettier": "@otter-hacker/prettier-config"
 }
 ```
