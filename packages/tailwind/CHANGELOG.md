@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.1.3
+
+### Patch Changes
+
+- ee4eaff: fix tailwind css main file
+
 ## 2.1.2
 
 ### Patch Changes
