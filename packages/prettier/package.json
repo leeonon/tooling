@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/prettier-config",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "main": "index.mjs",
   "author": "LeeOnOn",
   "license": "ISC",
@@ -13,9 +13,9 @@
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.5.11",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-    "@otter-hacker/tsconfig": "^2.0.2",
-    "@otter-hacker/eslint-config": "^2.0.2",
-    "@otter-hacker/tailwind-config": "^2.0.6",
+    "@otter-hacker/tsconfig": "^2.1.0",
+    "@otter-hacker/eslint-config": "^2.1.0",
+    "@otter-hacker/tailwind-config": "^2.1.0",
     "prettier": "^3.2.4",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
