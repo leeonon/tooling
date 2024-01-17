@@ -2,14 +2,14 @@
   "name": "@otter-hacker/tailwind-config",
   "version": "2.1.1",
   "description": "",
-  "main": "index.ts",
+  "main": "index.mjs",
   "author": "",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "index.ts",
+    "index.mjs",
     "postcss.js"
   ],
   "dependencies": {
