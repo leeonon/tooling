@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.0.7
+
+### Patch Changes
+
+- a1b5d28: update
+
 ## 2.0.6
 
 ### Patch Changes
