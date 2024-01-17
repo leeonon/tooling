@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/tailwind-config",
-  "version": "2.0.7",
+  "version": "2.0.6",
   "description": "",
   "main": "index.ts",
   "author": "",
@@ -18,9 +18,9 @@
     "postcss": "^8.4.33"
   },
   "devDependencies": {
-    "@otter-hacker/tsconfig": "^2.0.3",
-    "@otter-hacker/eslint-config": "^2.0.3",
-    "@otter-hacker/prettier-config": "^2.0.3",
+    "@otter-hacker/tsconfig": "^2.0.2",
+    "@otter-hacker/eslint-config": "^2.0.2",
+    "@otter-hacker/prettier-config": "^2.0.2",
     "prettier": "^3.2.4",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"

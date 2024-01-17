@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/tsconfig",
-  "version": "2.0.3",
+  "version": "2.0.2",
   "publishConfig": {
     "access": "public"
   },
