@@ -1,5 +1,3 @@
-import { fileURLToPath } from 'url';
-
 /**
  * @type {import('prettier').Config & import('prettier-plugin-tailwindcss').options &
  *       import("@ianvs/prettier-plugin-sort-imports").PluginConfig}
@@ -18,9 +16,9 @@ const config = {
   ],
   overrides: [],
   astroAllowShorthand: false,
-  tailwindConfig: fileURLToPath(
-    new URL('../../tooling/tailwind/index.ts', import.meta.url),
-  ),
+  // tailwindConfig: fileURLToPath(
+  //   new URL('../../tooling/tailwind/index.ts', import.meta.url),
+  // ),
   importOrder: [
     '<TYPES>',
     '',
