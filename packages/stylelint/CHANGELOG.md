@@ -1,5 +1,11 @@
 # @otter-hacker/stylelint-config
 
+## 2.0.3
+
+### Patch Changes
+
+- a1b5d28: update
+
 ## 2.0.2
 
 ### Patch Changes
