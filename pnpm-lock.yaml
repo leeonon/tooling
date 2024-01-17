@@ -61,7 +61,7 @@ importers:
   packages/prettier:
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports':
-        specifier: ^4.1.0
+        specifier: ^4.1.1
         version: 4.1.1(prettier@3.2.4)
       '@otter-hacker/eslint-config':
         specifier: ^2.0.1
@@ -73,16 +73,16 @@ importers:
         specifier: ^2.0.1
         version: link:../typescript
       eslint:
-        specifier: ^8.52.0
+        specifier: ^8.56.0
         version: 8.56.0
       prettier:
-        specifier: ^3.0.3
+        specifier: ^3.2.4
         version: 3.2.4
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.1
+        specifier: ^0.5.11
         version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier@3.2.4)
       typescript:
-        specifier: ^5.2.2
+        specifier: ^5.3.3
         version: 5.3.3
 
   packages/stylelint:
