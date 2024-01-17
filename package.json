@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint",
     "ci": "pnpm run lint",
+    "version": "pnpm changeset version",
     "release": "pnpm run lint && pnpm publish -r"
   },
   "publishConfig": {
