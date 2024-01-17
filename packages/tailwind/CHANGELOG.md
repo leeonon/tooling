@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.0.6
+
+### Patch Changes
+
+- c7ab05b: update tailwind & prettier
+
 ## 2.0.5
 
 ### Patch Changes

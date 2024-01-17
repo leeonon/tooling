@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- c7ab05b: update tailwind & prettier
+
+## 2.0.2
+
+### Patch Changes
+
 - 6e19a29: Fix the reference issues of prettier and tailwind.
 
 ## 2.0.1
