@@ -1,7 +1,7 @@
 ## Usage
 
 ```sh
-pnpm add @otter-hacker/eslint-config -F @xxxx
+pnpm add @otter-hacker/eslint-config
 ```
 
 package.json
