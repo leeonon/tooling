@@ -1,7 +1,7 @@
 ## Usage
 
 ```sh
-pnpm add @otter-hacker/tsconfig -F @xxxx
+pnpm add @otter-hacker/tsconfig
 ```
 
 tsconfig.json

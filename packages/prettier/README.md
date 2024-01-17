@@ -3,7 +3,7 @@
 ### Install
 
 ```sh
-pnpm add @otter-hacker/prettier-config -F @xxxx
+pnpm add @otter-hacker/prettier-config
 ```
 
 ### Custom configuration needed

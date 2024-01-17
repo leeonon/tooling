@@ -3,7 +3,7 @@
 ### Install
 
 ```sh
-pnpm add @otter-hacker/tailwind-config -F @xxxx
+pnpm add @otter-hacker/tailwind-config
 ```
 
 1. Create postcss.config.cjs
