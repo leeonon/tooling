@@ -1,5 +1,11 @@
 # @otter-hacker/eslint-config
 
+## 2.0.2
+
+### Patch Changes
+
+- 19852d1: update package version
+
 ## 2.0.1
 
 ### Patch Changes
