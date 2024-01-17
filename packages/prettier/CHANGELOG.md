@@ -1,5 +1,11 @@
 # @otter-hacker/prettier-config
 
+## 2.0.2
+
+### Patch Changes
+
+- 6e19a29: Fix the reference issues of prettier and tailwind.
+
 ## 2.0.1
 
 ### Patch Changes
