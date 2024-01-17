@@ -20,8 +20,8 @@
   "devDependencies": {
     "@otter-hacker/tsconfig": "^2.0.1",
     "@otter-hacker/eslint-config": "^2.0.1",
-    "@otter-hacker/prettier-config": "^2.0.2",
-    "prettier": "^3.2.2",
+    "@otter-hacker/prettier-config": "^2.0.1",
+    "prettier": "^3.2.4",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
