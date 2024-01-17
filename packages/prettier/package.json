@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/prettier-config",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "main": "index.mjs",
   "author": "LeeOnOn",
   "license": "ISC",
