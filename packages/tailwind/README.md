@@ -22,9 +22,7 @@ import { type Config } from 'tailwindcss';
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
   presets: [baseConfig],
-  theme: {
-    extend: {},
-  },
+  theme: {},
   darkMode: 'class',
   plugins: [],
 } satisfies Config;
