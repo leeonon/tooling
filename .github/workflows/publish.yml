@@ -6,24 +6,34 @@ on:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
 jobs:
-  publish:
+  version:
+    timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - name: checkout code repository
+        uses: actions/checkout@v3
         with:
-          version: 8
-      - uses: actions/setup-node@v3
+          fetch-depth: 0
+      - name: setup node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20.x
-          cache: "pnpm"
-
-      - run: pnpm install
-      - name: Create Release Pull Request or Publish
-        id: changesets
+          node-version: 14
+      - name: install pnpm
+        run: npm i pnpm@latest -g
+      - name: Setup npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+      - name: setup pnpm config
+        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+      - name: install dependencies
+        run: pnpm install
+      - name: create and publish versions
         uses: changesets/action@v1
         with:
+          version: pnpm ci:version
           commit: "chore: update versions"
           title: "chore: update versions"
           publish: pnpm run release
