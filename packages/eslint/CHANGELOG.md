@@ -1,5 +1,11 @@
 # @otter-hacker/eslint-config
 
+## 2.1.2
+
+### Patch Changes
+
+- a67a1e3: add eslint-jsdoc-plugin
+
 ## 2.1.1
 
 ### Patch Changes
