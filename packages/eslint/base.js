@@ -4,12 +4,13 @@ const config = {
   parserOptions: {
     project: true,
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jsdoc'],
   extends: [
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'prettier',
     'plugin:prettier/recommended',
+    'plugin:jsdoc/recommended',
   ],
   rules: {
     'prettier/prettier': 'error',
