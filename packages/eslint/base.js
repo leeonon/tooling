@@ -4,7 +4,7 @@ const config = {
   parserOptions: {
     project: true,
   },
-  plugins: ['@typescript-eslint', 'jsdoc'],
+  plugins: ['@typescript-eslint', 'jsdoc', 'perfectionist', 'unused-imports'],
   extends: [
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
@@ -14,6 +14,25 @@ const config = {
   ],
   rules: {
     'prettier/prettier': 'error',
+    'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    'perfectionist/sort-objects': [
+      'error',
+      {
+        order: 'asc',
+        type: 'natural',
+      },
+    ],
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      {
+        ' argsIgnorePattern': '^_',
+        args: 'after-used',
+        vars: 'all',
+        varsIgnorePattern: '^_',
+      },
+    ],
+
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.
     '@typescript-eslint/array-type': 'off',
