@@ -1,5 +1,11 @@
 # @otter-hacker/eslint-config
 
+## 3.0.0
+
+### Major Changes
+
+- 4bee4e2: add eslint import plugin and svelte config
+
 ## 2.1.2
 
 ### Patch Changes
