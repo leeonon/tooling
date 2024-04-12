@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@otter-hacker/tsconfig": "^2.1.1",
-    "@otter-hacker/eslint-config": "^2.1.1",
+    "@otter-hacker/eslint-config": "^3.0.0",
     "@otter-hacker/prettier-config": "^2.1.1",
     "stylelint": "^15.11.0",
     "stylelint-config-recess-order": "^4.3.0",
