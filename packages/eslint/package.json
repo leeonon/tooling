@@ -4,7 +4,8 @@
   "files": [
     "./base.js",
     "./nextjs.js",
-    "./react.js"
+    "./react.js",
+    "./svelte.js"
   ],
   "publishConfig": {
     "access": "public"
