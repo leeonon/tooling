@@ -1,5 +1,11 @@
 # @otter-hacker/tailwind-config
 
+## 2.2.0
+
+### Minor Changes
+
+- e769c1e: update
+
 ## 2.1.3
 
 ### Patch Changes
