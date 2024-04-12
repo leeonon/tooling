@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "files": [
     "./base.js",
     "./nextjs.js",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@otter-hacker/prettier-config": "workspace:^",
-    "@otter-hacker/tsconfig": "^2.1.1",
+    "@otter-hacker/tsconfig": "^2.2.0",
     "eslint": "^8.56.0",
     "eslint-plugin-jsdoc": "^48.0.4",
     "eslint-plugin-svelte": "^2.37.0",

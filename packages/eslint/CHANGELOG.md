@@ -1,5 +1,11 @@
 # @otter-hacker/eslint-config
 
+## 3.1.0
+
+### Minor Changes
+
+- e769c1e: update
+
 ## 3.0.0
 
 ### Major Changes

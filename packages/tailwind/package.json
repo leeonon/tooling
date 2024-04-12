@@ -1,6 +1,6 @@
 {
   "name": "@otter-hacker/tailwind-config",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "",
   "main": "index.mjs",
   "author": "",
@@ -18,9 +18,9 @@
     "postcss": "^8.4.33"
   },
   "devDependencies": {
-    "@otter-hacker/tsconfig": "^2.1.1",
-    "@otter-hacker/eslint-config": "^3.0.0",
-    "@otter-hacker/prettier-config": "^2.1.1",
+    "@otter-hacker/tsconfig": "^2.2.0",
+    "@otter-hacker/eslint-config": "^3.1.0",
+    "@otter-hacker/prettier-config": "^2.2.0",
     "prettier": "^3.2.4",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
