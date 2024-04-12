@@ -124,3 +124,8 @@ export default {
   plugins: [],
 } satisfies Config;
 ```
+
+## 发布
+1. `dev` 分支开发完成一个功能，执行 `pnpm changeset`，选择变更的包， 描述此次的改动是什么，这将在`.changeset` 目录生成 md 文件，需要提交到仓库
+2. 全部功能开发完毕，将 `dev` 分支合并到 `main` 触发 `Github Action`, 此时会自动执行 `yml` 配置中的 `pnpm run version` 命令，也就是 `pnpm changeset version`, 将会修改变动的包的版本号，以及生成对应的 `CHANGELOG` 日志文件，执行完毕后会创建一个 `Pull Request` ，目标分支为 `changeset-release/main`，这时候 `package` 还未真正发布到 `npm`。
+4. `Merge Pull Request`，再次触发 `Github Action`, 这时候会执行 `changesets/action@v1`，此时`.changesets` 文件中的更改集已经被 `pnpm changeset version` 命令使用掉，所以 `No changesets found, attempting to publish any unpublished packages to npm`。未找到任何更改集，尝试将所有未发布的软件包发布到npm。然后会执行 `pnpm run lint && pnpm publish -r` 命令，将 package 发布到 npm 中。  
