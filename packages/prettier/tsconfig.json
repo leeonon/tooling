@@ -1,5 +1,5 @@
 {
-  "extends": "@otter-hacker/tsconfig/base.json",
+  "extends": "@leeonon/tsconfig/base.json",
   "compilerOptions": {
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
   },

@@ -1,4 +1,4 @@
-# @otter-hacker/prettier-config
+# @leeonon/prettier-config
 
 ## 2.2.0
 

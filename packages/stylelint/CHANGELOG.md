@@ -1,4 +1,4 @@
-# @otter-hacker/stylelint-config
+# @leeonon/stylelint-config
 
 ## 2.2.0
 

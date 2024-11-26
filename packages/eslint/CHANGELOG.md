@@ -1,4 +1,4 @@
-# @otter-hacker/eslint-config
+# @leeonon/eslint-config
 
 ## 3.2.0
 

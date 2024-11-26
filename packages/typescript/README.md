@@ -1,14 +1,14 @@
 ## Usage
 
 ```sh
-pnpm add @otter-hacker/tsconfig
+pnpm add @leeonon/tsconfig
 ```
 
 tsconfig.json
 
 ```json
 {
-  "extends": "@otter-hacker/tsconfig/base.json",
+  "extends": "@leeonon/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

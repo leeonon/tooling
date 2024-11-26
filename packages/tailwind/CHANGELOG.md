@@ -1,4 +1,4 @@
-# @otter-hacker/tailwind-config
+# @leeonon/tailwind-config
 
 ## 2.2.0
 

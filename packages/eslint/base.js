@@ -26,7 +26,7 @@ const config = {
     'unused-imports/no-unused-vars': [
       'warn',
       {
-        ' argsIgnorePattern': '^_',
+        argsIgnorePattern: '^_',
         args: 'after-used',
         vars: 'all',
         varsIgnorePattern: '^_',

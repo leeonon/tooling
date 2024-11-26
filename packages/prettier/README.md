@@ -3,7 +3,7 @@
 ### Install
 
 ```sh
-pnpm add @otter-hacker/prettier-config
+pnpm add @leeonon/prettier-config
 ```
 
 ### Custom configuration needed
@@ -12,7 +12,7 @@ pnpm add @otter-hacker/prettier-config
 // .prettierrc.mjs
 import { fileURLToPath } from 'url';
 
-import otterPrettier from '@otter-hacker/prettier-config';
+import otterPrettier from '@leeonon/prettier-config';
 
 export default {
   ...otterPrettier,
@@ -26,6 +26,6 @@ export default {
 
 ```json
 {
-  "prettier": "@otter-hacker/prettier-config"
+  "prettier": "@leeonon/prettier-config"
 }
 ```

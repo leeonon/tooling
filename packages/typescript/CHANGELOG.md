@@ -1,4 +1,4 @@
-# @otter-hacker/tsconfig
+# @leeonon/tsconfig
 
 ## 2.2.0
 

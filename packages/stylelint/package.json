@@ -1,14 +1,14 @@
 {
-  "name": "@otter-hacker/stylelint-config",
+  "name": "@leeonon/stylelint-config",
   "version": "2.2.0",
   "main": "index.mjs",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@otter-hacker/tsconfig": "^2.2.0",
-    "@otter-hacker/eslint-config": "^3.1.0",
-    "@otter-hacker/prettier-config": "^2.2.0",
+    "@leeonon/tsconfig": "workspace:^",
+    "@leeonon/eslint-config": "workspace:^",
+    "@leeonon/prettier-config": "workspace:^",
     "stylelint": "^15.11.0",
     "stylelint-config-recess-order": "^4.3.0",
     "stylelint-config-standard": "^34.0.0",
@@ -20,10 +20,10 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@otter-hacker/eslint-config/base"
+      "@leeonon/eslint-config/base"
     ]
   },
-  "prettier": "@otter-hacker/prettier-config",
+  "prettier": "@leeonon/prettier-config",
   "author": "LeeOnOn",
   "license": "ISC"
 }

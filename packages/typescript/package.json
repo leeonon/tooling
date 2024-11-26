@@ -1,5 +1,5 @@
 {
-  "name": "@otter-hacker/tsconfig",
+  "name": "@leeonon/tsconfig",
   "version": "2.2.0",
   "publishConfig": {
     "access": "public"

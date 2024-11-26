@@ -3,19 +3,19 @@
 ### Install
 
 ```sh
-pnpm add @otter-hacker/tailwind-config
+pnpm add @leeonon/tailwind-config
 ```
 
 1. Create postcss.config.cjs
 
 ```js
-module.exports = require('@otter-hacker/tailwind-config/postcss');
+module.exports = require('@leeonon/tailwind-config/postcss');
 ```
 
 2. Create tailwind.config.ts
 
 ```ts
-import baseConfig from '@otter-hacker/tailwind-config';
+import baseConfig from '@leeonon/tailwind-config';
 import { type Config } from 'tailwindcss';
 
 /** @type {import('tailwindcss').Config} */
