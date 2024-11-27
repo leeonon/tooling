@@ -15,13 +15,6 @@ const config = {
   rules: {
     'prettier/prettier': 'error',
     'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
-    'perfectionist/sort-objects': [
-      'error',
-      {
-        order: 'asc',
-        type: 'natural',
-      },
-    ],
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
@@ -30,6 +23,33 @@ const config = {
         args: 'after-used',
         vars: 'all',
         varsIgnorePattern: '^_',
+      },
+    ],
+
+    'perfectionist/sort-imports': [
+      'error',
+      {
+        type: 'alphabetical',
+        order: 'asc',
+        ignoreCase: true,
+        specialCharacters: 'keep',
+        internalPattern: ['^~/.+'],
+        partitionByComment: false,
+        partitionByNewLine: false,
+        newlinesBetween: 'always',
+        maxLineLength: undefined,
+        groups: [
+          'type',
+          ['builtin', 'external'],
+          'internal-type',
+          'internal',
+          ['parent-type', 'sibling-type', 'index-type'],
+          ['parent', 'sibling', 'index'],
+          'object',
+          'unknown',
+        ],
+        customGroups: { type: {}, value: {} },
+        environment: 'node',
       },
     ],
 
