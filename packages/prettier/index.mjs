@@ -11,6 +11,7 @@ const config = {
   trailingComma: 'all',
   tabWidth: 2,
   plugins: [
+    'prettier-plugin-svelte',
     '@ianvs/prettier-plugin-sort-imports',
     'prettier-plugin-tailwindcss',
   ],
