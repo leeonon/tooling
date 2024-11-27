@@ -1,6 +1,5 @@
 /**
  * @type {import('prettier').Config & import('prettier-plugin-tailwindcss').options &
- *       import("@ianvs/prettier-plugin-sort-imports").PluginConfig}
  */
 const config = {
   arrowParens: 'always',
@@ -10,29 +9,9 @@ const config = {
   semi: true,
   trailingComma: 'all',
   tabWidth: 2,
-  plugins: [
-    'prettier-plugin-svelte',
-    '@ianvs/prettier-plugin-sort-imports',
-    'prettier-plugin-tailwindcss',
-  ],
+  plugins: ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
   overrides: [],
   astroAllowShorthand: false,
-  // tailwindConfig: fileURLToPath(
-  //   new URL('../../tooling/tailwind/index.ts', import.meta.url),
-  // ),
-  importOrder: [
-    '<TYPES>',
-    '',
-    '^(react/(.*)$)|^(react$)|^(react-native(.*)$)',
-    '^(next/(.*)$)|^(next$)',
-    '<THIRD_PARTY_MODULES>',
-    '',
-    '^@acme/(.*)$',
-    '',
-    '^~/',
-    '',
-    '^[./]',
-  ],
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
   importOrderTypeScriptVersion: '5.0.0',
 };
