@@ -8,7 +8,7 @@ module.exports = {
   extends: ['./base.js', 'plugin:svelte/recommended'],
   overrides: [
     {
-      files: ['*.svelte'],
+      files: ['*.svelte', '*.svelte.ts', '*.svelte.js'],
       parser: 'svelte-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',
